@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color:  #eb6c07;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo-cabecalho{
+    width: 80px;
+}
+
+.menu-navegacao a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.menu-navegacao{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.botao-azul{
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: #3b45f0;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+
+
+.sobre{
+    background-color: #eb6c07;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;  
+    padding-bottom: 60px;
+    padding-left: 30px; 
+    padding-right: 30px; 
+    
+    
+    
+}
+
+.titulo{
+color: #fff ;
+font-family:  'Montserrat', sans-serif;
+font-weight: 700;
+padding-bottom: 50px;
+font-size: 30px;
+}
+
+.foto-sobre{
+
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+
+}
+
+.parceiros{
+    background-color: #3b45f0;
+    color: #fff;
+    text-align: center; 
+    font-size: 30px;
+
+}
+
+.contatos{
+    background-color: #eb6c07;
+    color: #fff;
+    display: block; 
+    text-align: center;  
+    padding-bottom: 150px;
+   padding-top: 150px;
+}
+
+.redes-sociais{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociais a{
+    font-size: 55px;
+    color: black;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.parceiros{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.texto{
+    width: 300px;
+}
+
+.logo-parceiros{
+ justify-content: space-around;  
+ display: flex;
+ align-items: center;
+}
